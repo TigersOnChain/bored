@@ -2,7 +2,7 @@ import { Component } from "react";
 
 const title = <h1 className="text--3d text-uppercase"> <span className="color--gradient-y">Tigers</span> <br /> On Chain</h1>
 const desc = "4000 Unique tigers on the Elrond Blockchain";
-const btnText = "View On Frameit";
+const btnText = "Whitepaper";
 
 
 let socialList = [
@@ -74,7 +74,7 @@ class Banner extends Component {
                                             </li>
                                         ))}
                                     </ul>
-                                    <a href="https://www.frameit.gg/marketplace/TOC-eea288/items" className="default-btn">{btnText}</a>
+                                    <a href="https://drive.google.com/file/d/1xOKO0CIYjMexJP3jsUhK4jfxzuYavorI/view" className="default-btn">{btnText}</a>
                                 </div>
                             </div>
                         </div>

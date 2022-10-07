@@ -32,7 +32,7 @@ let teamList = [
     {
         imgUrl: 'assets/images/team/05.png',
         imgAlt: 'team Image',
-        name: 'Winston',
+        name: 'Rajah',
         degi: 'Blockchain engineer',
     },
 ]
