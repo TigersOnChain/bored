@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+
+import {BrowserRouter, Routes, Route } from "react-router-dom";
+import AosInit from "./component/layout/aos";
+
+
+import ScrollToTop from "./component/layout/scrolltop";
+import ErrorPage from "./page/404";
+import Home from "./page/home";
+import OnePage from "./page/onepage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<BrowserRouter>
+				<ScrollToTop />
+				<AosInit />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="index-single" element={<OnePage />} />
+					<Route path="*" element={<ErrorPage />} />
+				</Routes>
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;

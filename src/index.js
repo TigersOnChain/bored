@@ -1,8 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
+import 'swiper/css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import "aos/dist/aos.css";
+
+
+import '././assets/css/icofont.min.css';
+import '././assets/css/animate.css';
+import '././assets/css/style.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
