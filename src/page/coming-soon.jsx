@@ -12,29 +12,14 @@ let socialList = [
     {
         imgUrl: 'assets/images/social/discord.png',
         imgAlt: 'Discord',
-        siteLink: '#',
+        siteLink: 'https://discord.gg/Nwjk7vAkBv',
     },
     {
         imgUrl: 'assets/images/social/twitter.png',
         imgAlt: 'twitter',
-        siteLink: '#',
+        siteLink: 'https://twitter.com/Tigersonchain?s=20&t=inTt8yo0facnnOGonQv-wQ',
     },
-    {
-        imgUrl: 'assets/images/social/instagram.png',
-        imgAlt: 'instagram',
-        siteLink: '#',
-    },
-    {
-        imgUrl: 'assets/images/social/twitch.png',
-        imgAlt: 'twitch',
-        siteLink: '#',
-    },
-    {
-        imgUrl: 'assets/images/social/youtube.png',
-        imgAlt: 'youtube',
-        siteLink: '#',
-    },
-]
+    
 
 class ComingSoon extends Component {
     render() { 

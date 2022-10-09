@@ -15,7 +15,7 @@ class Community extends Component {
                         <div className="community__content text-center" data-aos="zoom-in" data-aos-duration="1000">
                             {title}
                             <p>{desc}</p>
-                            <a href="#" className="default-btn"><span>{btnText}</span></a>
+                            <a href="https://discord.gg/Nwjk7vAkBv" className="default-btn"><span>{btnText}</span></a>
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ class Header extends Component {
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </div>
                             <div className="social-btns">
-                                <a href="#" className="default-btn">
+                                <a href="https://discord.gg/Nwjk7vAkBv" className="default-btn">
                                     <span>Join Our Discord</span>
                                 </a>
                             </div>

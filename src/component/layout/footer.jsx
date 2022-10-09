@@ -7,28 +7,14 @@ let socialList = [
     {
         imgUrl: 'assets/images/social/discord.png',
         imgAlt: 'Discord',
-        siteLink: '#',
+        siteLink: 'https://discord.gg/Nwjk7vAkBv',
     },
     {
         imgUrl: 'assets/images/social/twitter.png',
         imgAlt: 'twitter',
-        siteLink: '#',
+        siteLink: 'https://twitter.com/Tigersonchain?s=20&t=inTt8yo0facnnOGonQv-wQ',
     },
-    {
-        imgUrl: 'assets/images/social/instagram.png',
-        imgAlt: 'instagram',
-        siteLink: '#',
-    },
-    {
-        imgUrl: 'assets/images/social/twitch.png',
-        imgAlt: 'twitch',
-        siteLink: '#',
-    },
-    {
-        imgUrl: 'assets/images/social/youtube.png',
-        imgAlt: 'youtube',
-        siteLink: '#',
-    },
+   
 ]
 
 class Footer extends Component {
@@ -51,13 +37,7 @@ class Footer extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="footer__copyright">
-                    <div className="container">
-                        <div className="text-center py-4">
-                            <p className=" mb-0">© 2022 Apes Land | All Rights Reserved <a href="https://www.templatemonster.com/authors/labartisan" className="color--theme-color" target="_blank"> Labartisan</a> </p>
-                        </div>
-                    </div>
-                </div>
+                
             </footer>
         );
     }

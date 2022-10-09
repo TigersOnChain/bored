@@ -21,19 +21,19 @@ let teamList = [
         imgUrl: 'assets/images/team/03.png',
         imgAlt: 'team Image',
         name: 'Shere Khan',
-        degi: 'Co-founder',
+        degi: 'Community master',
     },
     {
         imgUrl: 'assets/images/team/04.png',
         imgAlt: 'team Image',
         name: 'Vitaly',
-        degi: 'Co-founder',
+        degi: 'Expert Blockchain',
     },
     {
         imgUrl: 'assets/images/team/05.png',
         imgAlt: 'team Image',
         name: 'Rajah',
-        degi: 'Blockchain engineer',
+        degi: 'Marketing',
     },
 ]
 

@@ -9,28 +9,14 @@ let socialList = [
     {
         imgUrl: 'assets/images/social/discord.png',
         imgAlt: 'Social Thumb',
-        siteLink: '#',
+        siteLink: 'https://discord.gg/Nwjk7vAkBv',
     },
     {
         imgUrl: 'assets/images/social/twitter.png',
         imgAlt: 'Social Thumb',
-        siteLink: '#',
+        siteLink: 'https://twitter.com/Tigersonchain?s=20&t=inTt8yo0facnnOGonQv-wQ',
     },
-    {
-        imgUrl: 'assets/images/social/instagram.png',
-        imgAlt: 'Social Thumb',
-        siteLink: '#',
-    },
-    {
-        imgUrl: 'assets/images/social/twitch.png',
-        imgAlt: 'Social Thumb',
-        siteLink: '#',
-    },
-    {
-        imgUrl: 'assets/images/social/youtube.png',
-        imgAlt: 'Social Thumb',
-        siteLink: '#',
-    },
+
 ]
 
 let bannerAppsImageList = [

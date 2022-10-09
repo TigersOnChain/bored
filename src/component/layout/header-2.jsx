@@ -34,7 +34,7 @@ class HeaderTwo extends Component {
                                 <a className="nav-link" href="#faq">Faq</a>
                             </div>
                             <div className="social-btns">
-                                <a href="#" className="default-btn">
+                                <a href="https://discord.gg/Nwjk7vAkBv" className="default-btn">
                                     <span>Join Our Discord</span>
                                 </a>
                             </div>
